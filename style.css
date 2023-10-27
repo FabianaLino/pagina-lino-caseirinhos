@@ -317,3 +317,25 @@ td, th {
 	}
 }
 
+@media (max-width: 768px) {
+    #logolino {
+        width: 50%;
+    }
+
+    .caixa {
+        width: 90%;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 0 0 10px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
